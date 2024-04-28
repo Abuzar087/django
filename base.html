@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>crud </title>
+     
+       
+       <link rel="stylesheet" href="{% static 'enrollS/css/bootstrap.css' %}" />
+
+    </head>
+    <body> 
+         <div class= "container mt-5">
+            <h2 class = "text-center alert alert-danger"> Function Based view
+                ModelForm CRUD Project </h2>
+            {% block content %}  {% endblock content %}
+        </div>
+        <script src="{% static 'enrollS/js/bootstrap.js' %}"></script>
+        <script src"{% static 'enrollS/js/jquery.js' %}"></script>
+        <script src="{% static 'enrollS/js/popper.js' %}"></script>
+
+    </body>
+</html>
